@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+   
+    <class name="seleniumPractice.seleniumPractice.DownloadFiles"/>
+    <!--<class name="seleniumPractice.seleniumPractice.DatePicker"/>
+        <class name="seleniumPractice.seleniumPractice.WebTable"/>
+<class name="seleniumPractice.seleniumPractice.BrokenLinks"/>
+          <class name="seleniumPractice.seleniumPractice.Resizable"/>
+         <class name="seleniumPractice.seleniumPractice.DragAndDrop"/>
+   <class name="seleniumPractice.seleniumPractice.MouseRightClick"/>
+    <class name="seleniumPractice.seleniumPractice.MouseHover"/>
+        <class name="seleniumPractice.seleniumPractice.HandleAlert"/>
+    <class name="seleniumPractice.seleniumPractice.HandleWebElement"/>
+      <class name="seleniumPractice.seleniumPractice.SwitchingWindows"/>
+      <class name="seleniumPractice.seleniumPractice.DropDownPractice"/>
+      <class name="seleniumPractice.seleniumPractice.HandlePopUp"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
