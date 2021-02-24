@@ -27,12 +27,17 @@ public class SwitchingWindows {
 		driver.findElement(By.xpath("//a[@href='http://www.selenium.dev']//button[@class='btn btn-info'][normalize-space()='click']")).click();
 		//System.out.println(driver.getTitle());
 		Set<String> s = driver.getWindowHandles();
+		
+		//System.out.println(s.size());
+		
 		for(String i :s) {
 			//System.out.println(i);
 			String title = driver.switchTo().window(i).getTitle();	
 			//System.out.println(title);
 			if(title.contains("Frames & windows")) {
 				driver.close();
+			}else if(title.contains("SeleniumHQ Browser Automation")) {
+				driver.findElement(By.xpath("//a[@class='nav-item'][normalize-space()='Blog']")).click();
 			}
 			
 		}

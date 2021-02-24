@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumPractice.dataDriven.ReadingDataFromExcel">
+      <class name="seleniumPractice.iframe.IframeHW">
         <methods>
           <include name="app"/>
         </methods>
-      </class> <!-- seleniumPractice.dataDriven.ReadingDataFromExcel -->
+      </class> <!-- seleniumPractice.iframe.IframeHW -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
