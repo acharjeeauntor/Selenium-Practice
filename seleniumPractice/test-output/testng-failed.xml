@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumPractice.iframe.IframeHW">
+      <class name="seleniumPractice.testNG.DependencyAndAlwaysRun">
         <methods>
-          <include name="app"/>
+          <include name="driveCar"/>
+          <include name="stopCar"/>
+          <include name="startCar"/>
         </methods>
-      </class> <!-- seleniumPractice.iframe.IframeHW -->
+      </class> <!-- seleniumPractice.testNG.DependencyAndAlwaysRun -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
