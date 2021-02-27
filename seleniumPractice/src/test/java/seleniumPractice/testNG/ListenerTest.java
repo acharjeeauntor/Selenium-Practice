@@ -21,6 +21,9 @@ public class ListenerTest {
 		System.out.println("This is test 2");
 		Assert.assertEquals("A", "B");
 	}
+	
+	
+	//@Test(enabled=false)
 	@Test
 	void Test3() {
 		System.out.println("This is test 3");
