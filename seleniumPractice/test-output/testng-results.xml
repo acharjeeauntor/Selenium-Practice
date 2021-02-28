@@ -1,65 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-27T22:10:31 BDT" name="MasterTestSuite" finished-at="2021-02-27T22:10:31 BDT" duration-ms="0">
+  <suite started-at="2021-02-28T23:25:34 BDT" name="Default suite" finished-at="2021-02-28T23:25:45 BDT" duration-ms="10277">
     <groups>
     </groups>
-  </suite> <!-- MasterTestSuite -->
-  <suite started-at="2021-02-27T22:10:30 BDT" name="Functional" finished-at="2021-02-27T22:10:30 BDT" duration-ms="13">
-    <groups>
-    </groups>
-    <test started-at="2021-02-27T22:10:30 BDT" name="Functional Tests" finished-at="2021-02-27T22:10:30 BDT" duration-ms="13">
-      <class name="seleniumPractice.BatchTesting.PaymentTest">
-        <test-method signature="paymentInTaka()[pri:0, instance:seleniumPractice.BatchTesting.PaymentTest@c0c2f8d]" started-at="2021-02-27T22:10:30 BDT" name="paymentInTaka" finished-at="2021-02-27T22:10:30 BDT" duration-ms="2" status="PASS">
+    <test started-at="2021-02-28T23:25:34 BDT" name="Default test" finished-at="2021-02-28T23:25:45 BDT" duration-ms="10277">
+      <class name="seleniumPractice.fileUpload.FileUploadEasyWay">
+        <test-method signature="app()[pri:0, instance:seleniumPractice.fileUpload.FileUploadEasyWay@24269709]" started-at="2021-02-28T23:25:34 BDT" name="app" finished-at="2021-02-28T23:25:45 BDT" duration-ms="10198" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- paymentInTaka -->
-        <test-method signature="paymentIndoller()[pri:0, instance:seleniumPractice.BatchTesting.PaymentTest@c0c2f8d]" started-at="2021-02-27T22:10:30 BDT" name="paymentIndoller" finished-at="2021-02-27T22:10:30 BDT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- paymentIndoller -->
-      </class> <!-- seleniumPractice.BatchTesting.PaymentTest -->
-      <class name="seleniumPractice.BatchTesting.PaymentReturns">
-        <test-method signature="paymentReturnByBank()[pri:0, instance:seleniumPractice.BatchTesting.PaymentReturns@305b7c14]" started-at="2021-02-27T22:10:30 BDT" name="paymentReturnByBank" finished-at="2021-02-27T22:10:30 BDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- paymentReturnByBank -->
-      </class> <!-- seleniumPractice.BatchTesting.PaymentReturns -->
-    </test> <!-- Functional Tests -->
-  </suite> <!-- Functional -->
-  <suite started-at="2021-02-27T22:10:30 BDT" name="sanity" finished-at="2021-02-27T22:10:30 BDT" duration-ms="90">
-    <groups>
-    </groups>
-    <test started-at="2021-02-27T22:10:30 BDT" name="sanity Tests" finished-at="2021-02-27T22:10:30 BDT" duration-ms="90">
-      <class name="seleniumPractice.BatchTesting.LoginTest">
-        <test-method signature="loginByEmail()[pri:0, instance:seleniumPractice.BatchTesting.LoginTest@7a8c8dcf]" started-at="2021-02-27T22:10:30 BDT" name="loginByEmail" finished-at="2021-02-27T22:10:30 BDT" duration-ms="10" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginByEmail -->
-        <test-method signature="loginByFacebook()[pri:0, instance:seleniumPractice.BatchTesting.LoginTest@7a8c8dcf]" started-at="2021-02-27T22:10:30 BDT" name="loginByFacebook" finished-at="2021-02-27T22:10:30 BDT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginByFacebook -->
-        <test-method signature="loginByTwitter()[pri:0, instance:seleniumPractice.BatchTesting.LoginTest@7a8c8dcf]" started-at="2021-02-27T22:10:30 BDT" name="loginByTwitter" finished-at="2021-02-27T22:10:30 BDT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginByTwitter -->
-      </class> <!-- seleniumPractice.BatchTesting.LoginTest -->
-      <class name="seleniumPractice.BatchTesting.SignUpTest">
-        <test-method signature="signUpByEmail()[pri:0, instance:seleniumPractice.BatchTesting.SignUpTest@24269709]" started-at="2021-02-27T22:10:30 BDT" name="signUpByEmail" finished-at="2021-02-27T22:10:30 BDT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signUpByEmail -->
-        <test-method signature="signUpByFacebook()[pri:0, instance:seleniumPractice.BatchTesting.SignUpTest@24269709]" started-at="2021-02-27T22:10:30 BDT" name="signUpByFacebook" finished-at="2021-02-27T22:10:30 BDT" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signUpByFacebook -->
-        <test-method signature="signUpByTwitter()[pri:0, instance:seleniumPractice.BatchTesting.SignUpTest@24269709]" started-at="2021-02-27T22:10:30 BDT" name="signUpByTwitter" finished-at="2021-02-27T22:10:30 BDT" duration-ms="5" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signUpByTwitter -->
-      </class> <!-- seleniumPractice.BatchTesting.SignUpTest -->
-    </test> <!-- sanity Tests -->
-  </suite> <!-- sanity -->
+        </test-method> <!-- app -->
+      </class> <!-- seleniumPractice.fileUpload.FileUploadEasyWay -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumPractice.testNG.ListenerTest">
+      <class name="seleniumPractice.fileUpload.FileUploadByAutoIt">
         <methods>
-          <include name="Test3"/>
-          <include name="Test2"/>
+          <include name="app"/>
         </methods>
-      </class> <!-- seleniumPractice.testNG.ListenerTest -->
+      </class> <!-- seleniumPractice.fileUpload.FileUploadByAutoIt -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
