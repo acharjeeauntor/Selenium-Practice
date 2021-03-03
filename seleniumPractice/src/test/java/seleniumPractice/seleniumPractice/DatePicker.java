@@ -35,6 +35,7 @@ public class DatePicker {
 		driver.findElement(By.linkText("22")).click();
 		
 		
+		
 	}
 
 }
